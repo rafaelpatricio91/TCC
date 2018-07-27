@@ -442,7 +442,7 @@ body {
     
     .ui-orderlist {
         .ui-orderlist-controls {
-            padding-right: 10px;
+            margin-right: 10px;
                         
             button {
                 font-size: $fontSize + 2;
@@ -502,20 +502,14 @@ body {
     
     .ui-carousel {
         padding: 0;
-
-        .ui-corner-all {
-            @include border-radius(0);
-        }
         
         .ui-carousel-header {
             padding: $headerPadding;
             margin: 0;
             border: 0 none;
             border-bottom: 1px solid $headerBorderColor;
-            @include border-radius(4px);
-            border-bottom-right-radius: 0;
-            border-bottom-left-radius: 0;
-
+            @include border-radius(0);
+            
             .ui-carousel-header-title {
                 padding: 0;
             }
@@ -530,9 +524,7 @@ body {
             border: 0 none;
             border-top: 1px solid $headerBorderColor;
             margin: 0;
-            @include border-radius(4px);
-            border-top-right-radius: 0;
-            border-top-left-radius: 0;
+            @include border-radius(0);
         }
         
         .ui-carousel-button {

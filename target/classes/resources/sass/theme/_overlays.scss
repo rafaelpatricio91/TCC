@@ -145,23 +145,6 @@ body {
             }
         }
     }
-
-    .ui-sidebar {
-        .ui-sidebar-close {
-            &:hover {
-                padding: 1px;
-            }
-        }
-
-        .ui-button {
-            width: auto;
-        }
-    }
-    
-    .ui-shadow {
-        box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.15);
-
-    }
     
     .ui-lightbox {
         @include shadow(0 5px 15px rgba(0,0,0,.5));

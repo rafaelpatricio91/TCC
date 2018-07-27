@@ -1,5 +1,5 @@
-@import '_variables';
-@import '_mixins';
+@import '../variables/_theme';
+@import '../_mixins';
 @import '_common';
 @import '_icons';
 @import '_forms';
@@ -9,4 +9,3 @@
 @import '_overlays';
 @import '_menus';
 @import '_misc';
-@import '../_theme_styles.scss';
